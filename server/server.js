@@ -24,7 +24,7 @@ app.use(require('./routes/usuario'));
 
 
 
-mongoose.connect(process.env.urlDB, {
+mongoose.connect(process.env.URLDB, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 

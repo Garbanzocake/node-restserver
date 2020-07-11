@@ -23,7 +23,7 @@ if (process.env.NODE_ENV === 'dev') {
     urlDB = 'mongodb+srv://GarbanzoCake:UdtyOcxpjKQxkWyZ@cafe.jbl4i.mongodb.net/Cafe?retryWrites=true&w=majority';
 }
 
-process.env.urlDB = urlDB;
+process.env.URLDB = urlDB;
 
 
 // mongodb://localhost:27017/cafe
